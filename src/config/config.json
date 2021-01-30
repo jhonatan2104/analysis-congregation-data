@@ -1,0 +1,37 @@
+{
+    "FILE_GOOGLE": "google/pyproject-star-254403-8f9d7b729c95.json",
+    "NAME_SHEET": "Test",
+    "DESTINATION_FOLDER": "data/destination",
+    "COLUMNS": {
+        "NAME_COLL_SERVICE":"Privilégio de serviço",
+        "NAME_COLL_MINISTERIAL":"Privilégio ministerial",
+        "NAME_COLL_INDEX": "Nome",
+        "NAME_COLL_PUBLICATIONS": "Publicações",
+        "NAME_COLL_VIDEOS": "Videos",
+        "NAME_COLL_HOURS": "Horas",
+        "NAME_COLL_REVISITED": "Revisitas",
+        "NAME_COLL_STUDIES": "Estudos"
+    },
+    "ENUM_COLL_SERVICE": [
+        "Ancião",
+        "Servo"
+    ],
+    "ENUM_COLL_MINISTERIAL": [
+        "Pioneiro Regular",
+        "Pioneiro Auxiliar",
+        "Publicador"
+    ],
+    "NAME_TABLE_GENERATE": {
+        "BASE": "Base",
+        "MAIN": "Principal",
+        "REGULAR_PIONEER": "Pioneiros Regulares",
+        "AUXILIARY_PIONEER": "Pioneiros Auxiliares",
+        "PUBLISHERS": "Publicadores",
+        "HOURS": "Horas",
+        "NOT_REPORTED": "Não Relataram",
+        "NON_PROGRESSIVE_STUDIES": "Estudos sem Revisitas",
+        "BROTHER_WITH_OBSERVATION": "Irmãos com Observações",
+        "BROTHER_WITHOUT_STUDIES": "Irmãos sem Estudos"
+    }
+    
+}
