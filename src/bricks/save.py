@@ -36,7 +36,9 @@ def save(_dict):
     brother_with_observation = _dict[name_brother_with_observation]
     without_studies = _dict[name_without_studies]
 
-    with pd.ExcelWriter(f'{destination_folders}/{years}-{month}.xlsx') as writer:
+    path_doc = f'{destination_folders}/{years}-{month}.xlsx'
+
+    with pd.ExcelWriter(path_doc) as writer:
         df_geral.to_excel(writer, sheet_name=name_df_geral)
         main.to_excel(writer, sheet_name=name_main)
         regular_pioneer.to_excel(writer, sheet_name=name_regular_pioneer)
@@ -49,3 +51,5 @@ def save(_dict):
             writer, sheet_name=name_non_progressive_studies)
         without_studies.to_excel(writer, sheet_name=name_without_studies)
         df.to_excel(writer, sheet_name=name_df)
+
+    return path_doc

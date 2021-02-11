@@ -4,6 +4,7 @@ from ..bricks.validation import validation
 from ..bricks.wiping import wiping
 from ..bricks.analyze import analyze
 from ..bricks.save import save
+from ..bricks.mail import mail
 
 
 def construction():
@@ -13,6 +14,9 @@ def construction():
     data = wiping(data)
     data = validation(data)
     data = analyze(data)
-    save(data)
+
+    path_doc = save(data)
+
+    mail(path_doc)
 
     print("Success Run")
