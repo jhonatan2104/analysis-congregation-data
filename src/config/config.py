@@ -1,7 +1,7 @@
 
 import json
 
-FILE_CONFIG = 'src/config/config.json'
+FILE_CONFIG = 'src/config/config-prod.json'
 
 
 def config():

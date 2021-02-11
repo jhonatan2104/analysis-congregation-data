@@ -1,6 +1,7 @@
 {
     "FILE_GOOGLE": "",
     "NAME_SHEET": "Test",
+    "SERVICE_ACCOUNT": "",
     "DESTINATION_FOLDER": "data/destination",
     "COLUMNS": {
         "NAME_COLL_SERVICE":"Privilégio de serviço",
