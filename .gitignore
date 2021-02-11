@@ -2,3 +2,5 @@
 /**/destination/**/*
 
 __pycache__
+
+src/config/config-prod.json

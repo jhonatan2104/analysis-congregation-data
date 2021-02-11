@@ -1,5 +1,5 @@
 {
-    "FILE_GOOGLE": "google/pyproject-star-254403-8f9d7b729c95.json",
+    "FILE_GOOGLE": "",
     "NAME_SHEET": "Test",
     "DESTINATION_FOLDER": "data/destination",
     "COLUMNS": {
@@ -32,6 +32,13 @@
         "NON_PROGRESSIVE_STUDIES": "Estudos sem Revisitas",
         "BROTHER_WITH_OBSERVATION": "Irmãos com Observações",
         "BROTHER_WITHOUT_STUDIES": "Irmãos sem Estudos"
+    },
+    "MAIL": {
+        "EMAIL_FROM": "",
+        "EMAIL_TO": "",
+        "SUBJECT": "Relatório de Serviço Ministerial",
+        "BODY": "Olá",
+        "EMAIL_PASSWORD": ""
     }
     
 }
