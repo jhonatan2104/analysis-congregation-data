@@ -2,7 +2,6 @@ version: "3"
 
 services:
   app:
-    image: "whyjho/python-pandas-analysis:1.0.3"
     volumes:
       - ".:/usr/src/app"
     build: .
